@@ -1,14 +1,5 @@
 
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    background-color: var(--corAzul);
-    color: white;
-    font-family: Bageo, 'Montserrat', sans-serif;
-    text-align: center;
-}
+
 
 main > div#aberturadapagina{
     padding-top: 30px;
@@ -223,8 +214,3 @@ main > div#contentConsultoria > div#buttonwhats > a > button:active{
     margin-bottom: 50px;
 }
 
-#footericon {
-    padding-left: 5px;
-    width: 1.2em;
-    object-fit: cover;
-}
