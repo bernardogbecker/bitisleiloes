@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Bageo';
+    src: url('../fontes/Bageo.ttf') format('truetype');
+    font-weight: normal;
+}
+
+:root{
+    --corAzul: #384494;
+    --corLaranja: #E44631;
+    --corCinza: #B8B8B8;
+    --corCinzaEscuro: #505050;
+    --corVerde: #6EAB76;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+}
+
+.escondermobile {
+    display: none;
+  }
+  
+  @media screen and (min-width: 700px) {
+    .escondermobile {
+      display: block;
+    }
+  }
+
+header{
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px 0px;
+    height: 72px;
+}
+
+header > div > a > img {
+    height: 72px;
+}
+
+header div.headeresquerdo{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#bitisescrita {
+    margin-left: 20px;
+    height: 36px;
+}
+
+.botoesescritos {
+    border: none;
+    background-color: inherit;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    color: var(--corAzul);
+    margin-left: 30px;
+    font-family: Bageo, sans-serif;
+}
+
+.botoescomfundoazul {
+    border: none;
+    background-color: var(--corAzul);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    
+}
+
+#botaologin{
+    margin-right: 20px;
+}

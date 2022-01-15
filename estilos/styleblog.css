@@ -1,0 +1,72 @@
+#fotocomtitulo{
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#inicio{
+    height: 600px;
+    margin: auto;
+}
+
+#titulo{
+    margin: 0px 0px 0px 0px;
+    position: absolute;
+    color: white;
+    top: 400px;
+    left: 30px;
+    font-family: Bageo, 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+
+#infosiniciais{
+    font-family: Bageo, sans-serif;
+    color: var(--corCinza);   
+    max-width: 1500px;
+    margin: auto;
+    padding: 10px 30px;
+}
+
+main > div > p#infosiniciais > strong {
+    color: var(--corLaranja);
+}
+
+main > article {
+    margin: auto;
+    padding: 30px;
+    max-width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: var(--corCinzaEscuro);
+    font-size: 1.2em;
+}
+
+main > article > p, dd {
+    line-height: 1.5em;
+}
+
+main > article > h2, h3, strong{
+    color: black;
+}
+
+article > img {
+    max-height: 600px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+footer{
+    padding: 5px;
+    background-color: var(--corAzul);
+    color: white;
+    font-family: Bageo, 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0px;
+}
+
+dt {
+    color: var(--corLaranja);
+    font-weight: bold;
+}
+
