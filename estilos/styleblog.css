@@ -46,8 +46,10 @@ main > article > p, dd {
 }
 
 main > article > h2, h3, strong{
-    color: black;
+    font-family: Bageo, 'Montserrat', sans-serif;
+    color: var(--corAzul);
 }
+
 
 article > img {
     max-height: 600px;
